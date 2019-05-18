@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    background-image: url(../images/wheat/wheat.png);
+
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    min-height: 800px;
+
+
+}
+
+header {
+    background: whitesmoke;
+    height: 55px;
+    border-bottom-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+h1 {
+    float: left;
+    background-color: teal;
+    color: aliceblue;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+}
+
+h2 {
+    color: teal;
+}
+nav {
+    float: right;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 15px;
+    
+    position: relative;
+  }
+
+  nav a {
+    color: #777777;
+    text-decoration: none;
+
+  }
+
+  .wrapper {
+    margin-top: 50px;
+    width: 960px;
+    background-color: azure;
+    padding: 20px;
+    min-height: 600px;
+
+  }
+
+  img {
+      float: left;
+      padding-right: 20px;
+      padding-bottom: 10px;
+
+
+  }
+
+  hr {
+      margin-bottom: 20px;
+
+  }
+
+  footer {
+      text-align: center;
+      background-color: #666666;
+      color: #ffff;
+      padding: 10px;
+      font-size: 10px;
+      height: 30px;
+      border-top: solid 6px teal;
+
+}
+
+.details-area {
+    flex: 1;
+    order: 1;
+   
+
+}
+
+.details-area input {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.details-area textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+
+}
+
+.wrapper a {
+    text-decoration: none;
+    background: teal;
+    color: #ffff;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+p {
+    color: #777777;
+}
+
+hr {
+    
+    background-color: #777777;
+    color: #777777;
+    height: 1px;
+
+}
+
+.img-car {
+    position: relative;
+    left: 0%;
+   
+
+}
+
+.img3 {
+    position: relative;
+    top: 170px;
+    right: 440px;
+
+}
+
+.img4 {
+    position: relative;
+    top: 170px;
+    right: 440px;
+
+}
+
