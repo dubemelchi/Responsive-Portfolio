@@ -220,7 +220,7 @@ hr {
     .container{
         width: 580px;
         margin: auto;
-        min-height: 610px;
+        min-height: 620px;
     }
 
     .wrapper {
@@ -252,10 +252,38 @@ hr {
         clear: both;
       }
 
+      header {
+    background: whitesmoke;
+    height: 55px;
+    border-bottom-color: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.img-car {
+    
+   width: 200px;
+
+}
+
+.img2 {
+    width: 200px;
+}
+
+.img3 {
+    right: 220px;
+       top: 2px;
+    width: 200px;
+
+}
+
     .img4 {
-        position: relative;
-        top: 20px;
-        right: 220px;}
+       position: relative;
+       right: -220px;
+       top: -140px;
+        width: 200px
+}
 
         img {
             width: 538px;
